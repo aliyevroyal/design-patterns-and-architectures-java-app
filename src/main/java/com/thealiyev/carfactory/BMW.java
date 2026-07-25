@@ -1,4 +1,4 @@
-package com.thealiyev.factory.car;
+package com.thealiyev.carfactory;
 
 public class BMW extends Car {
     public BMW(double maxSpeed, int theNumberOfGears) {

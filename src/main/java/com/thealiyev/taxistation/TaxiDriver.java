@@ -1,4 +1,4 @@
-package com.thealiyev.taxi.station;
+package com.thealiyev.taxistation;
 
 import java.time.LocalDate;
 import java.time.Period;

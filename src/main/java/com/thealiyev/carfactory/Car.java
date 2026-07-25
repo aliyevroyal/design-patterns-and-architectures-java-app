@@ -1,4 +1,4 @@
-package com.thealiyev.factory.car;
+package com.thealiyev.carfactory;
 
 public abstract class Car {
     public double maxSpeed;

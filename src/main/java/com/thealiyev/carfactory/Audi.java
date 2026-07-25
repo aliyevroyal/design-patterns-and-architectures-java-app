@@ -1,4 +1,4 @@
-package com.thealiyev.factory.car;
+package com.thealiyev.carfactory;
 
 public class Audi extends Car implements ICoolDownable, Retractable {
     public Audi(double maxSpeed, int theNumberOfGears) {
