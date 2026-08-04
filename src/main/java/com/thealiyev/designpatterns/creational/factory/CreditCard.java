@@ -3,7 +3,7 @@ package com.thealiyev.designpatterns.creational.factory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CreditCard implements IPayment {
+public class CreditCard implements IPaymentMethod {
     private static final Logger LOGGER = LoggerFactory.getLogger(CreditCard.class);
 
     @Override

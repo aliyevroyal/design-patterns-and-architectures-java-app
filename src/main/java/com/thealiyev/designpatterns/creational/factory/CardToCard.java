@@ -3,7 +3,7 @@ package com.thealiyev.designpatterns.creational.factory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class CardToCard implements IPayment {
+public class CardToCard implements IPaymentMethod {
     public static final Logger LOGGER = LoggerFactory.getLogger(CardToCard.class);
 
     @Override
@@ -12,7 +12,7 @@ public class CardToCard implements IPayment {
     }
 
     private boolean payWithCash() {
-        LOGGER.info("Payment was successful! Transfered from credit to card!");
+        LOGGER.info("Payment was successful! Transferred from credit to card!");
         return true;
     }
 }
