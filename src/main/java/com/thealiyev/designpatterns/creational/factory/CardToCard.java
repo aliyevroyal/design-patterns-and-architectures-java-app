@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class CardToCard implements IPaymentMethod {
-    public static final Logger LOGGER = LoggerFactory.getLogger(CardToCard.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CardToCard.class);
 
     @Override
     public boolean pay() {
